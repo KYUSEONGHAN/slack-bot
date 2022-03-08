@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507858c5-ffe4-49b4-9509-013414227515" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/crawling/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawling/weather.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slack/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +17,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../slack-bot" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="ab9a6378-7a57-46d5-85cd-50d0ebc3b9bd" />
   <component name="ProjectId" id="2666RpTeKsC4Fsm7hnXGPfHW5ry" />
@@ -110,12 +107,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../slack-bot/crawling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../slack-bot/crawling/corona.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawling/corona.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,12 +129,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../slack-bot/crawling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../slack-bot/crawling/weather.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawling/weather.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,7 +275,8 @@
       <option name="presentableId" value="Default" />
       <updated>1646731684408</updated>
       <workItem from="1646731686051" duration="20000" />
-      <workItem from="1646731967309" duration="6444000" />
+      <workItem from="1646731967309" duration="6685000" />
+      <workItem from="1646742115881" duration="13000" />
     </task>
     <servers />
   </component>
@@ -286,26 +284,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1386" height="238" key="GridCell.Tab.0.bottom" timestamp="1646741780802">
+    <state width="1386" height="609" key="GridCell.Tab.0.bottom" timestamp="1646742033335">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1386" height="238" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1646741780802" />
-    <state width="1386" height="238" key="GridCell.Tab.0.center" timestamp="1646741780801">
+    <state width="1386" height="609" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1646742033335" />
+    <state width="1386" height="609" key="GridCell.Tab.0.center" timestamp="1646742033335">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1386" height="238" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1646741780801" />
-    <state width="1386" height="238" key="GridCell.Tab.0.left" timestamp="1646741780800">
+    <state width="1386" height="609" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1646742033335" />
+    <state width="1386" height="609" key="GridCell.Tab.0.left" timestamp="1646742033334">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1386" height="238" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1646741780800" />
-    <state width="1386" height="238" key="GridCell.Tab.0.right" timestamp="1646741780801">
+    <state width="1386" height="609" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1646742033334" />
+    <state width="1386" height="609" key="GridCell.Tab.0.right" timestamp="1646742033335">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1386" height="238" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1646741780801" />
+    <state width="1386" height="609" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1646742033335" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/weather_alert$corona.coverage" NAME="corona Coverage Results" MODIFIED="1646741780793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../slack-bot/crawling" />
-    <SUITE FILE_PATH="coverage/weather_alert$weather__1_.coverage" NAME="weather (1) Coverage Results" MODIFIED="1646740197731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../slack-bot/crawling" />
+    <SUITE FILE_PATH="coverage/weather_alert$corona.coverage" NAME="corona Coverage Results" MODIFIED="1646741850908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawling" />
+    <SUITE FILE_PATH="coverage/weather_alert$weather__1_.coverage" NAME="weather (1) Coverage Results" MODIFIED="1646740197731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawling" />
     <SUITE FILE_PATH="coverage/weather_alert$test.coverage" NAME="test Coverage Results" MODIFIED="1646737221952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawling" />
   </component>
 </project>
