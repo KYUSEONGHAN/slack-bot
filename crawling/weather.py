@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests as re
 
 def get_weather_info(area: str):
+    # 네이버 날씨 페이지
     url = 'https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=' + area + '+날씨'
 
     html = re.get(url)
@@ -18,6 +19,3 @@ def get_weather_info(area: str):
         message += info + '\n'
 
     return message
-
-if __name__ == '__main__':
-    print(get_weather_info('서울'))
