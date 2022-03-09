@@ -12,3 +12,6 @@ soup = BeautifulSoup(html.text, 'html.parser')
 
 corona_info = soup.select_one("div.status_info").text.strip()
 area_corona = "".join([x.text.strip() for x in soup.select("table.table > tbody")])
+
+print(corona_info)
+print(area_corona)
